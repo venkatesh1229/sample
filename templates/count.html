@@ -1,0 +1,19 @@
+<h1>Result Page</h1>
+{{ msg }}
+<h1>content is: {{ length }} words</h1>
+<h1>content is: {{ clength }} characters</h1>
+
+<h1>content is: {{ abc }} same words</h1>
+
+{% for key, value in abc.items %}
+    <li>{{ key }} : {{ value }}</li>
+
+{% endfor %}
+
+<br/>
+
+
+{% for key, value in edf %}
+    <li>{{ key }} : {{ value }}</li>
+
+{% endfor %}
